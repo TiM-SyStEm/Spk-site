@@ -1,6 +1,6 @@
 a.style1
 {
-   color: #3862BC;
+   color: #FFFFFF;
    text-decoration: none;
 }
 a.style1:visited
@@ -36,6 +36,26 @@ a.style2:active
 a.style2:hover
 {
    color: #90C9EC;
+   text-decoration: underline;
+}
+a.style3
+{
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+a.style3:visited
+{
+   color: #800080;
+   text-decoration: underline;
+}
+a.style3:active
+{
+   color: #FF0000;
+   text-decoration: underline;
+}
+a.style3:hover
+{
+   color: #0000FF;
    text-decoration: underline;
 }
 h1, .h1
