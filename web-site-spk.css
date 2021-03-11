@@ -58,6 +58,27 @@ a.style3:hover
    color: #0000FF;
    text-decoration: underline;
 }
+a.spk-modules
+{
+   color: #3862BC;
+   font-weight: bold;
+   text-decoration: none;
+}
+a.spk-modules:visited
+{
+   color: #800080;
+   text-decoration: underline;
+}
+a.spk-modules:active
+{
+   color: #FF0000;
+   text-decoration: underline;
+}
+a.spk-modules:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
 h1, .h1
 {
    font-family: Arial;
