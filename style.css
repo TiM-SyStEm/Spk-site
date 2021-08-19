@@ -132,6 +132,7 @@ body {
 }
 .video {
   padding-top: 50px;
+  display: none;
 }
 .btn {
   background: #282a4d;
