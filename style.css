@@ -132,7 +132,6 @@ body {
 }
 .video {
   padding-top: 50px;
-  display: none;
 }
 .btn {
   background: #282a4d;
@@ -142,6 +141,7 @@ body {
   color: #fff;
   font-size: 20px;
   transition: all 0.5s ease;
+  display: none;
 }
 .btn:hover {
   box-shadow: none;
