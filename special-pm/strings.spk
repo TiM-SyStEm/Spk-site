@@ -5,7 +5,7 @@ class Character{
         if length(current) != 1{
             return Null
         }
-        return current == ""
+        return current == " "
     }
     fun isDigit(current){
         if length(current) != 1{
