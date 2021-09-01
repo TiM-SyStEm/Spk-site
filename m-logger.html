@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Special Key</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link type="image/png" sizes="120x120" rel="icon" href="favicon.png"
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="SpecialGallery.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <span class="fs-4">Special Gallery</span>
+          </a>
+          <a href="SpecialGallery.html" class="nav-link">TIM SYSTEM Bridge</a>
+        </header>
+  </div>
+  <div class="container text-left text-grey">
+    <h1>Logger</h1>
+    <p>
+      <code>Minimum version: SPS1</br>Author: corgifist</br></code>
+      The logger module provides a set of functions for convenient output of messages of different levels of criticality with the ability to write log files without worrying about performance!
+    </p>
+    <h1>Installation</h1>
+    <p>
+    Installing the logger module is not difficult! Using special-pm you can install it in a matter of seconds! Run the SPK Shell and enter this command into it: <code>special-pm install logger</code>
+    </p>
+    <h1>Quick inspection</h1>
+    <p>
+    The logger module contains only one class containing all the functions for logging!</br><code>debug | / info | / warn | / err | / critical (type, text)</code> - functions for displaying logs to the console. Logs are output in the format [ID] type: text Where: ID is the severity of the error (debug or info, etc.) type is the type of error text - additional information about the error. </br><code>generateMessageText(id, type, text)</code> - generates the text for the message in the same format that was described</br><code>earlier. logFile(file_name, id, type, text)</code> - writes the generated log with data (in the same format as the others)to the file you specified 
+    </p>
+    <h1>Conclusion</h1>
+    <p>
+    The logger module is a lightweight module. This is done in order not to slow down projects on SPK. The module exists since the SPK version: SPS 1 The module was made: September 1
+    </p>
+  </div>
+</body>
