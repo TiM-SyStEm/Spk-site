@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Special Key</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link type="image/png" sizes="120x120" rel="icon" href="favicon.png"
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="SpecialGallery.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <span class="fs-4">Special Gallery</span>
+          </a>
+          <a href="SpecialGallery.html" class="nav-link">TIM SYSTEM Bridge</a>
+        </header>
+  </div>
+  <div class="container text-left text-grey">
+    <h1>Map</h1>
+    <p>
+      <code>Minimum version: SPS1</br>Author: corgifist</br></code>
+      The Map module is an alternative to the dict type (or the HashMap class in java). It was built entirely on SPK using STL. For those who don't know, inside Map data is stored in the format "key”-"value”, that is, in pairs. Both keys and values can be any objects - numbers, strings, or objects of other classes.
+    </p>
+    <h1>Installation</h1>
+    <p>
+      <code>special-pm install map</code>
+    </p>
+    <h1>Quick inspection</h1>
+    <p>
+    The Map module contains only 1 class and 1 method. ImmutableMap(table, count) - class implementing map Map() is a function that returns ImmutableMap([], 0). Made for convenient map creation
+    Installing the logger module is not difficult! Using special-pm you can install it in a matter of seconds! Run the SPK Shell and enter this command into it.
+    </p>
+    <h1>Functional</h1>
+    <p>
+    put(key, value) - puts a pair of numbers in the map. Note that put should only be used like this: `var map = Map() # Creating a Map var map = map.put("key", 12)`. get(key) - get the element by key clean() - returns an empty map usage: var map = map.clean()` isEmpty() - if the map is empty, return 1 otherwise 0 iterateKey(f -> fun(key) { body }) - takes the keys and calls the function given as argument. iterateKeyValue(f -> fun(key, value) { body }) - analog of iterateKey with contains(key) numbers - returns 1 if there is a key in map otherwise 0 remove(key) - removes an element from the map to use as well as put! length() - returns the size of the map toString() - returns a string representation of map
+    </p>
+    <h1>Conclusion</h1>
+    <p>
+    Map is functional, but not the easiest in terms of resource consumption. You need to use it wisely, in order not to worsen the speed of the program.
+    </p>
+  </div>
+</body>
